@@ -1,7 +1,7 @@
 // Módulo JSON Server
 const jsonServer = require("json-server"); // Importa o módulo json-server para criar a API
 const server = jsonServer.create(); // Cria uma instância do servidor JSON Server
-const router = jsonServer.router("db.json"); // Cria um roteador que usa o arquivo db.json como banco de dados
+const router = jsonServer.router("bd.json"); // Cria um roteador que usa o arquivo db.json como banco de dados
 
 // Certifique-se de usar o middleware padrão
 const middlewares = jsonServer.defaults(); // Configura middlewares padrão como logging e suporte para CORS
