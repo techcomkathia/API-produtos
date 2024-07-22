@@ -1,0 +1,61 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "Produto 1",
+            "preco": 100
+        },
+        {
+            "id": 2,
+            "nome": "Produto 2",
+            "preco": 200
+        },
+        {
+            "id": 3,
+            "nome": "Produto 3",
+            "preco": 300
+        }
+    ],
+    "usuarios": [
+        {
+            "id": 1,
+            "nome": "Usuario 1",
+            "email": "user.name@email"}
+            ,
+
+        {"id": 2,
+            "nome": "Usuario 2",
+            "email": "user.name2@email"
+        }],
+    "carrinhos":[
+            {
+                "id": 1,
+                "idUsuario": 1,
+                "produtos": [
+                    {
+                        "id": 1,
+                        "quantidade": 2
+                    },
+                    {
+                        "id": 2,
+                        "quantidade": 1
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "idUsuario": 2,
+                "produtos": [
+                    {
+                        "id": 2,
+                        "quantidade": 1
+                    },
+                    {
+                        "id": 3,
+                        "quantidade": 1
+                    }
+                ]
+            }
+        ]
+
+}
