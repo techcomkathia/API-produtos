@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "json-server": "^1.0.0-beta.1"
-  }
+  },
+  "name": "api-sapatos",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Káthia Rocha",
+  "license": "ISC",
+  "description": ""
 }
