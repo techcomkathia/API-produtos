@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "json-server": "^1.0.0-beta.1"
+    "json-server": "^0.17.0"
   },
   "name": "api-sapatos",
   "version": "1.0.0",
